@@ -1,1 +1,38 @@
-hello world
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="keywords" content="clicker game">
+  <meta name="author" content="Cory Bosselmann">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/style.css">
+
+  <title>Meteor Shower</title>
+</head>
+
+<body>
+  <canvas id="myCanvas" width="700" height="550"></canvas>
+<small>Meteors per second: <span id="mps"></span>
+</small>
+<div id="currentTotal"></div>
+<div id="buttons">
+  <div class="button" data-val=".01" data-cost="10">Ursids - <span>10</span>
+  </div>
+  <div class="button" data-val=".1" data-cost="100">Orionids - <span>100</span>
+  </div>
+  <div class="button" data-val="1" data-cost="1000">Perseids - <span>1000</span>
+  </div>
+  <div class="button" data-val="10" data-cost="10000">Geminids - <span>10000</span>
+  </div>
+  <div class="button" data-val="100" data-cost="100000">END OF THE WORLD - <span>100000</span>
+  </div>
+</div>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="./js/script.js"></script>
+
+</body>
+
+</html>
